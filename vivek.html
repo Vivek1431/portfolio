@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivek M - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #000000;
+            transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #4682B4;
+            color: #ffffff;
+            padding: 20px 0;
+            border-bottom: #FFA500 3px solid;
+            transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+        }
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+            transition: color 0.3s ease-in-out;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+            display: flex;
+            justify-content: flex-end;
+        }
+        header li {
+            margin: 0 15px;
+        }
+        header a:hover {
+            color: #FFA500;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        section#showcase {
+            min-height: 400px;
+            background: #4682B4;
+            color: #ffffff;
+            text-align: center;
+            padding-top: 100px;
+            transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+        }
+        section#showcase h1 {
+            margin-top: 0;
+            font-size: 55px;
+        }
+        section#showcase p {
+            font-size: 20px;
+        }
+        .dark {
+            padding: 15px;
+            background: #4682B4;
+            color: #ffffff;
+            margin-top: 10px;
+        }
+        footer {
+            padding: 20px;
+            margin-top: 20px;
+            color: #ffffff;
+            background-color: #4682B4;
+            text-align: center;
+            transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+        }
+        .main-content {
+            padding: 20px;
+            background: #f8f9fa;
+            margin-top: 20px;
+            border-radius: 8px;
+            transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+        }
+        .main-content h2, .main-content h3 {
+            color: #4682B4;
+            transition: color 0.3s ease-in-out;
+        }
+        a {
+            color: #4682B4;
+            text-decoration: none;
+            transition: color 0.3s ease-in-out;
+        }
+        a:hover {
+            color: #FFA500;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        ul li {
+            margin: 10px 0;
+            list-style-type: disc;
+            list-style-position: inside;
+            transition: transform 0.3s ease-in-out;
+        }
+        ul li:hover {
+            transform: translateX(10px);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Vivek M</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#academic">Academic Qualifications</a></li>
+                    <li><a href="#skills">Technical Skills</a></li>
+                    <li><a href="#internship">Internship</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Aspiring IT Professional with a passion for technology and innovation.</p>
+        </div>
+    </section>
+
+    <div class="container main-content">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                My name is Vivek M. I have completed my B.Tech in Information Technology from Mahendra Engineering College, Tamil Nadu.
+                I am passionate about exploring new technologies and realizing my potential by working with dedicated professionals.
+                My career objective is to work with utmost dedication and be an asset to the organization.
+            </p>
+        </section>
+
+        <section id="academic">
+            <h2>Academic Qualifications</h2>
+            <ul>
+                <li><strong>B.Tech in Information Technology</strong>, Mahendra Engineering College, Tamil Nadu, Anna University, 2023 - 79.6%</li>
+                <li><strong>Intermediate</strong>, Vaigai Matric Higher Secondary School, HSC, 2019 - 61%</li>
+                <li><strong>10th Class</strong>, St. Mary’s Higher Secondary School, SSLC, 2017 - 79%</li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <h3>Java:</h3>
+            <ul>
+                <li>Good knowledge on OOPS</li>
+                <li>Strong knowledge on Exception Handling</li>
+                <li>Very good knowledge on Basic Programs</li>
+            </ul>
+            <h3>Oracle SQL:</h3>
+            <ul>
+                <li>Good understanding of RDBMS</li>
+                <li>Good knowledge of writing SQL Queries</li>
+                <li>Good understanding of SQL Joins</li>
+                <li>Good knowledge of SQL commands</li>
+            </ul>
+        </section>
+
+        <section id="internship">
+            <h2>Internship</h2>
+            <p>
+                I have successfully completed an internship training program in “JAVA” during 05/09/2022 to 20/09/2022
+                at SD PRO SOLUTIONS company.
+            </p>
+        </section>
+
+        <section id="project">
+            <h2>Project</h2>
+            <p>
+                I have successfully completed my final year project titled “Secure Text Transfer Based on Cloud”.
+            </p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <p>Email: <a href="mailto:vivekmaha003@gmail.com">vivekmaha003@gmail.com</a></p>
+            <p>Mobile: +91-9894744607</p>
+            <p>Permanent Address: 1/143, Mettu Street, A.N. Mangalam, Karipatti (via), Salem (dt) 636106</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>Vivek M | © 2024</p>
+    </footer>
+</body>
+</html>
